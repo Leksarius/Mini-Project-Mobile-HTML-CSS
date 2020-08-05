@@ -1,0 +1,397 @@
+@font-face {
+    font-family: 'SF UI Text';
+    src: url(../fonts/SFUIText-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url(../fonts/SFUIText-Medium.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url(../fonts/SFUIText-Semibold.ttf);
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Text';
+    src: url(../fonts/SFUIText-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 100%;
+    min-height: 568px;
+    font-family: SF UI Text;
+    background-image: url(../img/bg-img.png);
+    width: 375px;
+    height: 667px;
+}
+
+/*===menu===*/
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.menu-logo {
+    margin: 76px 0 34px 0;
+}
+
+.menu-title {
+    width: 287px;
+    height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    letter-spacing: -0.0032em;
+    color: #FFFFFF;
+    margin-bottom: 54px;
+}
+
+.menu-btn,
+.menu-btn-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 351px;
+    height: 56px;
+    border-radius: 56px;
+    margin-bottom: 16px;
+    text-decoration: none;
+    outline: none;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #ffffff;
+    letter-spacing: -0.0041em;
+    border: 1px rgba(255, 255, 255, 0.5) solid;
+    box-sizing: border-box;
+    border-radius: 100px;
+}
+
+.menu-btn-active {
+    background: #FF6600;
+    border: none;
+}
+
+.menu-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: -0.0039em;
+    color: #FFFFFF;
+    margin-top: 16px
+}
+
+/*===/menu===*/
+/*===homepage===*/
+
+.homepage,
+.homepage-top,
+.homepage-items,
+.homepage-bot,
+.homepage-top-btnleft,
+.homepage-top-btnright,
+.homepage-top-inn,
+.homepage-item,
+.homepage-bot,
+.request-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    text-decoration: none;
+    outline: none;
+    font-family: SF UI Text;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.homepage-top {
+    height: 154px;
+    width: 295px;
+    margin: 46px 0 38px 0;
+}
+
+.homepage-top-btnleft {
+    height: 48px;
+    width: 71px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: -0.0008em;
+}
+
+.homepage-top-avatar {
+    margin: 0 68px 0 46px;
+}
+
+.homepage-top-btnright {
+    height: 41px;
+    width: 34px;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: -0.0008em;
+}
+
+.homepage-top-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.homepage-top-inn {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.0032em;
+    opacity: 0.7;
+}
+
+.homepage-item {
+    height: 146px;
+    width: 125px;
+    background-color: #ffffff;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: -0.0208em;
+    color: #000000;
+    padding: 30px 20px;
+}
+
+.homepage-bot {
+    height: 67px;
+    width: 187px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.0062em;
+    border: none;
+}
+
+/*===/homepage===*/
+/*===request===*/
+
+.request {
+    position: relative;
+}
+
+.request-title {
+    justify-content: space-between;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.0032em;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+
+.request-title-txt {
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    height: 20px;
+}
+
+.request-subtitle {
+    background: #F4F9FC;
+    width: 100%;
+    padding: 24px 12px;
+    box-sizing: border-box;
+}
+
+.request-info {
+    background: #EFEFF4;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.0008em;
+    color: #000000;
+    padding: 16px 12px;
+}
+
+.star {
+    color: #FF6600;
+}
+
+.request-inputs {
+    background: #FFFFFF;
+    padding-left: 12px;
+    padding-top: 34px
+}
+
+/* inputs */
+.group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+input {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: -0.0032em;
+    padding: 10px;
+    display: block;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+input:focus {
+    outline: none;
+}
+
+label {
+    color: #030303;
+    font-size: 18px;
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+/* active state */
+input:focus ~ label,
+input:valid ~ label {
+    top: -15px;
+    font-size: 10px;
+    color: #7C7B82;
+}
+
+
+/* BOTTOM BARS */
+.bar {
+    position: relative;
+    display: block;
+    width: 320px;
+}
+
+.bar:before,
+.bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #1D67B3;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+/* active state */
+input:focus ~ .bar:before,
+input:focus ~ .bar:after {
+    width: 50%;
+}
+
+/*===/request===*/
+/*===footer===*/
+
+.main-footer {
+    width: 375px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    background: #FFFFFF;
+    border-top: 1px rgba(0, 0, 0, 0.1) solid;
+}
+
+.main-footer-items {
+    height: 50px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.main-footer-items-txt,
+.main-footer-items-txt-active {
+    font-family: SF UI Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    align-items: center;
+    text-align: center;
+    color: #4A4A4A;
+    width: 100%;
+}
+
+.main-footer-items-txt-active {
+    color: #FF6600;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: -0.0062em;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+}
+
+.clr:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 50px;
+}
